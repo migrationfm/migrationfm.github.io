@@ -16,8 +16,8 @@ gems: [jekyll-paginate]
 # add your appropriate info here
 author: Akira.Kuratani
 bio: Salesforce Developer at TeamSpirit Inc.
-email:
-email_md5: # md5 hash of your email
+email: migrationfm@gmail.com
+email_md5: 0f5a90aa72eccd0071a7dae1187dac9f # md5 hash of your email
 twitter_username: a_kuratani
 github_username: kuratani
 
