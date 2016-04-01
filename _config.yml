@@ -1,0 +1,35 @@
+# Site settings
+title: migration.fm
+description: © 2016 a_kuratani
+baseurl: "/"
+url: "http://migration.fm"
+timezone: JPN
+
+# Build settings
+markdown: kramdown
+paginate: 5 # pagination based on number of posts
+paginate_path: "page/:num"
+highlighter: pygments
+gems: [jekyll-paginate]
+
+# author info
+# add your appropriate info here
+author: Akira.Kuratani
+bio: Salesforce Developer at TeamSpirit Inc.
+email:
+email_md5: # md5 hash of your email
+twitter_username: a_kuratani
+github_username: kuratani
+
+# Theming options
+# These settings are mandatory.
+theme:              'blue-pink'
+# drawer theming
+drawer:
+  text_color:       'grey-600'
+  header_color:     'blue-500'
+  navigation_color: 'grey-200'
+# footer theming
+footer:
+  text_color: 'blue-grey-200'
+  color: 'blue-grey-600'
