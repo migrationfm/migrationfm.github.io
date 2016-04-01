@@ -1,7 +1,7 @@
 # Site settings
 title: migration.fm
 description: © 2016 a_kuratani
-# baseurl: "/"
+baseurl: "/"
 url: "http://migration.fm"
 timezone: JPN
 
