@@ -9,7 +9,9 @@ timezone: JPN
 markdown: kramdown
 paginate: 5 # pagination based on number of posts
 paginate_path: "page/:num"
-gems: [jekyll-paginate]
+gems:
+  - jekyll-paginate
+  - jekyll-sitemap
 
 # author info
 # add your appropriate info here
