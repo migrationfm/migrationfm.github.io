@@ -35,6 +35,7 @@ layout: null
 		<itunes:category text="Technology">
       <itunes:category text="Podcasting"/>
     </itunes:category>
+    <itunes:explicit>no</itunes:explicit>
     <googleplay:email>{{ site.email }}</googleplay:email>
     <googleplay:description>{{ site.description | xml_escape }}</googleplay:description>
     <googleplay:explicit>no</googleplay:explicit>
