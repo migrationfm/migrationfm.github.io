@@ -16,7 +16,7 @@ layout: null
     <atom:link href="{{ "feed.xml" | prepend: site.baseurl | prepend: site.url }}" rel="self" type="application/rss+xml"/>
     <media:thumbnail url="{{ site.squareLogo }}" />
     <media:keywords>{{ site.keywords }}</media:keywords>
-    <media:category scheme="http://www.itunes.com/dtds/podcast-1.0.dtd">Technology</media:category>
+    <media:category scheme="http://www.itunes.com/dtds/podcast-1.0.dtd">Technology/Podcasting</media:category>
     <copyright>2016 {{ site.managerName }}</copyright>
     <image>
 			<link>{{ site.url }}</link>
@@ -32,7 +32,9 @@ layout: null
 			<itunes:email>{{ site.email }}</itunes:email>
 		</itunes:owner>
 		<itunes:image href="{{ site.squareLogo }}" />
-		<itunes:category text="Technology"/>
+		<itunes:category text="Technology">
+      <itunes:category text="Podcasting"/>
+    </itunes:category>
     <googleplay:email>{{ site.email }}</googleplay:email>
     <googleplay:description>{{ site.description | xml_escape }}</googleplay:description>
     <googleplay:explicit>no</googleplay:explicit>
@@ -43,7 +45,7 @@ layout: null
     {% for post in site.posts limit:10 %}
       <item>
         <title>{{ post.title | xml_escape }}</title>
-        <description>{{ post.content | xml_escape }}</description>
+        <description><![CDATA[{{ post.content | xml_escape }}]]></description>
         <pubDate>{{ post.date | date_to_rfc822 }}</pubDate>
         <link>{{ post.url | replace_first: '/', '' | prepend: site.baseurl | prepend: site.url }}</link>
         <guid isPermaLink="true">{{ post.url | prepend: site.baseurl | prepend: site.url }}</guid>
@@ -55,8 +57,8 @@ layout: null
         {% endfor %}
         <enclosure type="audio/mpeg" url="{{ post.link }}" length="{{ post.length }}"/>
         <itunes:author>{{ post.speaker }}</itunes:author>
-        <itunes:subtitle>{{ post.description | truncate: 50 | xml_escape }}</itunes:subtitle>
-        <itunes:summary>{{ post.description | xml_escape }}</itunes:summary>
+        <itunes:subtitle><![CDATA[{{ post.description | truncate: 50 | xml_escape }}]]></itunes:subtitle>
+        <itunes:summary><![CDATA[{{ post.description | xml_escape }}]]></itunes:summary>
         <itunes:duration>{{ post.podcastLength }}</itunes:duration>
         <itunes:keywords>{{ post.keywords }}</itunes:keywords>
         <itunes:image href="{% if post.image %}{{ site.url }}/{{ post.image }}{% else %}{{site.squareLogo}}{% endif %}" />
