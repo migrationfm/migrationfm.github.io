@@ -1,9 +1,17 @@
 # Site settings
 title: migration.fm
-description: © 2016 a_kuratani
+description: "日夜Salesforceと格闘しながらサービスを開発しているエンジニアが話す Salesforce Developer 向けのPodcastです。"
+subtitle: "Salesforce Developer 向け Podcast migration.fm #migrationfm"
+squareLogo: "http://i1.sndcdn.com/avatars-000213304962-tni9t8-original.jpg"
+managerName: migration.fm
+managerEmail: migrationfm@gmail.com
+copyright: "&#x2117; &amp; &#xA9; 2016"
+keywords: Salesforce, Podcast
 baseurl: "/"
 url: "http://migration.fm"
+lang: ja
 timezone: JPN
+ellipsis: "…"
 
 # Build settings
 markdown: kramdown
