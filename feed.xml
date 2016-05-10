@@ -46,7 +46,7 @@ layout: null
     {% for post in site.posts limit:10 %}
       <item>
         <title>{{ post.title | xml_escape }}</title>
-        <description><![CDATA[{{ post.content | xml_escape }}]]></description>
+        <description>{{ post.content | xml_escape }}</description>
         <pubDate>{{ post.date | date_to_rfc822 }}</pubDate>
         <link>{{ post.url | replace_first: '/', '' | prepend: site.baseurl | prepend: site.url }}</link>
         <guid isPermaLink="true">{{ post.url | prepend: site.baseurl | prepend: site.url }}</guid>
@@ -58,8 +58,8 @@ layout: null
         {% endfor %}
         <enclosure type="audio/mpeg" url="{{ post.link }}" length="{{ post.length }}"/>
         <itunes:author>{{ post.speaker }}</itunes:author>
-        <itunes:subtitle><![CDATA[{{ post.description | truncate: 50 | xml_escape }}]]></itunes:subtitle>
-        <itunes:summary><![CDATA[{{ post.description | xml_escape }}]]></itunes:summary>
+        <itunes:subtitle>{{ post.description | truncate: 50 | xml_escape }}</itunes:subtitle>
+        <itunes:summary>{{ post.description | xml_escape }}</itunes:summary>
         <itunes:duration>{{ post.podcastLength }}</itunes:duration>
         <itunes:keywords>{{ post.keywords }}</itunes:keywords>
         <itunes:image href="{% if post.image %}{{ site.url }}/{{ post.image }}{% else %}{{site.squareLogo}}{% endif %}" />
