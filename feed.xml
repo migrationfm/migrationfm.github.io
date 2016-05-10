@@ -17,7 +17,7 @@ layout: null
     <media:thumbnail url="{{ site.squareLogo }}" />
     <media:keywords>{{ site.keywords }}</media:keywords>
     <media:category scheme="http://www.itunes.com/dtds/podcast-1.0.dtd">Technology/Podcasting</media:category>
-    <copyright>2016 {{ site.managerName }}</copyright>
+    <copyright>© 2016 {{ site.author }}</copyright>
     <image>
 			<link>{{ site.url }}</link>
 			<url>{{ site.squareLogo}}</url>
