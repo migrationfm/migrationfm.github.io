@@ -61,7 +61,7 @@ layout: null
         <itunes:author>{{ post.speaker }}</itunes:author>
         <itunes:subtitle><![CDATA[{{ post.description | truncate: 50 | xml_escape }}]]></itunes:subtitle>
         <itunes:summary><![CDATA[{{ post.description | xml_escape }}]]></itunes:summary>
-        <content:encoded><![CDATA[{{ post.content | xml_escape }}]]></content:encoded>
+        <content:encoded><![CDATA[{{ post.content }}]]></content:encoded>
         <itunes:duration>{{ post.podcastLength }}</itunes:duration>
         <itunes:keywords>{{ post.keywords }}</itunes:keywords>
         <itunes:image href="{% if post.image %}{{ site.url }}/{{ post.image }}{% else %}{{site.squareLogo}}{% endif %}" />
