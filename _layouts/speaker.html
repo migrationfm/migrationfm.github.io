@@ -1,0 +1,28 @@
+---
+layout: default
+---
+<div class="paper-content mdl-color--white mdl-shadow--4dp content mdl-color-text--grey-800 mdl-cell">
+  <div class="post">
+    <section class="mdl-cell mdl-cell--11-col author">
+      <div class="mdl-grid">
+        <div class="mdl-cell mdl-cell--2-col author-avatar">
+          <img src="{{ page.speaker[0].image_url }}" alt="{{ page.speaker[0].name }}" height="64px" width="64px" />
+        </div>
+        <div class="mdl-cell mdl-cell--9-col">
+          <h5 class="section-title author-name">
+            {{ page.speaker[0].name }}
+          </h5>
+          <p class="author-bio">{{ page.speaker[0].bio }}</p>
+          <p>
+            <a href="https://twitter.com/{{ page.speaker[0].twitter_username }}" class="twitter-follow-button" data-show-count="false">Follow @{{ page.speaker[0].twitter_username }}</a>
+            <script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+'://platform.twitter.com/widgets.js';fjs.parentNode.insertBefore(js,fjs);}}(document, 'script', 'twitter-wjs');</script>
+          </p>
+        </div>
+      </div>
+    </section>
+
+    <article>
+      {{ content }}
+    </article>
+  </div>
+</div>

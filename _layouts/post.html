@@ -41,6 +41,33 @@ layout: default
         {% endunless %}
       </div>
     </header>
+    <div class="description">
+      <p>{{ page.description }}</p>
+    </div>
+    <div class="keywords">
+      <p>Keywords: {{ page.keywords }}</p>
+    </div>
+    <div class="soundcloud">
+      <iframe width="100%" height="166" scrolling="no" frameborder="no" src="{{ page.soundcloud_url }}"></iframe>
+    </div>
+    <div>SpeakerNames: {{ speakerNames }}</div>
+    <div class="speaker">
+      {% unless page.speaker_list == empty %}
+        <h1>Speaker</h1>
+        <section class="mdl-cell mdl-cell--11-col author">
+          <div class="mdl-grid">
+            {% for speaker in page.speaker_list %}
+              <div class="mdl-cell mdl-cell--2-col author-avatar">
+                <a href="/speaker/{{ speaker.name | replace: ' ', '' | append: '.html' }}">
+                  <img src="{{ speaker.image_url }}" alt="{{ speaker.name }}" height="64px" width="64px"/>
+                  <p>{{ speaker.name }}<p>
+                </a>
+              </div>
+            {% endfor %}
+          </div>
+        </section>
+      {% endunless %}
+    </div>
     <article>
       {{ content }}
     </article>
@@ -76,7 +103,6 @@ layout: default
     <div class="mdl-grid">
       <section class="share mdl-cell mdl-cell--6-col">
         <h4>Share Post</h4>
-
 
         <a id="twitter" class="mdl-button mdl-button--primary twitter" href="http://twitter.com/share?text={{page.title | encode}}{% if site.twitter_username%}&via={{site.twitter_username}}{% endif %}{% if site.twitter_hashtag%}&hashtags={{site.twitter_hashtag}}{% endif %}"
            onclick="window.open(this.href, 'twitter-share', 'width=550,height=235');return false;">

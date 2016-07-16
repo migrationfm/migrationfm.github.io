@@ -58,7 +58,7 @@ layout: null
         <category>{{ cat | xml_escape }}</category>
         {% endfor %}
         <enclosure type="audio/mpeg" url="{{ post.link }}" length="{{ post.length }}"/>
-        <itunes:author>{{ post.speaker }}</itunes:author>
+        <itunes:author>{{ site.author }}</itunes:author>
         <itunes:subtitle><![CDATA[{{ post.description | truncate: 50 | xml_escape }}]]></itunes:subtitle>
         <itunes:summary><![CDATA[{{ post.description | xml_escape }}]]></itunes:summary>
         <content:encoded><![CDATA[{{ post.content }}]]></content:encoded>
