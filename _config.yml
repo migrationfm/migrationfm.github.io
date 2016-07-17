@@ -17,6 +17,7 @@ ellipsis: "…"
 markdown: kramdown
 paginate: 5 # pagination based on number of posts
 paginate_path: "page/:num"
+permalink: "/:title/"
 gems:
   - jekyll-paginate
   - jekyll-sitemap
