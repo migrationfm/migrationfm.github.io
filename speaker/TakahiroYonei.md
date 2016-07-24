@@ -9,4 +9,4 @@ speaker:
 
 ### Episodes
 
-- [2: Summer'16 リリースノート、SALESFORCE DEVELOPERS.INFO、Tokyo Salesforce Developer Groupの活動など](/podcast/2016/05/31/episode-2.html)
+- [2: Summer'16 リリースノート、SALESFORCE DEVELOPERS.INFO、Tokyo Salesforce Developer Groupの活動など](/podcast/002/)

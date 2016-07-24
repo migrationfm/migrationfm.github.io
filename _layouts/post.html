@@ -57,7 +57,7 @@ layout: default
           <div class="mdl-grid">
             {% for speaker in page.speaker_list %}
               <div class="mdl-cell mdl-cell--2-col author-avatar">
-                <a href="/speaker/{{ speaker.name | replace: ' ', '' | append: '.html' }}">
+                <a href="/speaker/{{ speaker.name | replace: ' ', ''}}/">
                   <img src="{{ speaker.image_url }}" alt="{{ speaker.name }}" height="64px" width="64px"/>
                   <p>{{ speaker.name }}<p>
                 </a>
