@@ -9,7 +9,7 @@ speaker:
 
 ### Episodes
 
-- [3: migration.fm のWebサイト更新、ニュース など](/podcast/003/)
-- [2: Summer'16 リリースノート、SALESFORCE DEVELOPERS.INFO、Tokyo Salesforce Developer Groupの活動など](/podcast/002/)
-- [1: Salesforce trailhead GWスキルアップキャンペーン、Summer'16リリースノートについてなど](/podcast/001/)
-- [0: Podcast、はじめました](/podcast/000/)
+- [3: migration.fm のWebサイト更新、ニュース など](/003/)
+- [2: Summer'16 リリースノート、SALESFORCE DEVELOPERS.INFO、Tokyo Salesforce Developer Groupの活動など](/002/)
+- [1: Salesforce trailhead GWスキルアップキャンペーン、Summer'16リリースノートについてなど](/001/)
+- [0: Podcast、はじめました](/000/)
