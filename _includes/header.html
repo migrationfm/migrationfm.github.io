@@ -29,6 +29,7 @@
     <!-- Navigation -->
     <nav class="mdl-navigation">
       <a class="mdl-navigation__link" href="{{ site.baseurl }}">Home</a>
+      <a class="mdl-navigation__link" href="{{ site.blog_url }}">Blog</a>
       {% for page in site.pages %}
         {% if page.title %}
           <a class="mdl-navigation__link" href="{{ page.url | replace_first: '/', '' | prepend: site.baseurl }}">{{ page.title }}</a>
@@ -49,6 +50,10 @@
     <a class="mdl-navigation__link" href="{{ site.baseurl }}">
       <i class="mdl-color-text--blue-grey-400 material-icons" role="presentation">home</i>
       Home
+    </a>
+    <a class="mdl-navigation__link" href="{{ site.blog_url }}">
+      <i class="mdl-color-text--blue-grey-400 material-icons" role="presentation">code</i>
+      Blog
     </a>
     {% for page in site.pages %}
       {% if page.title %}
