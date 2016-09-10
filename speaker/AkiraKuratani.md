@@ -9,6 +9,7 @@ speaker:
 
 ### Episodes
 
+- [5: Let's read Salesforce Developers.info (zaki___yama)](/005/)
 - [4: Awesome Salesforce (stomita)](/004/)
 - [3: migration.fm のWebサイト更新、ニュース など](/003/)
 - [2: Summer'16 リリースノート、SALESFORCE DEVELOPERS.INFO、Tokyo Salesforce Developer Groupの活動など](/002/)
