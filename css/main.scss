@@ -3,12 +3,7 @@
 ---
 @charset "utf-8";
 
-$primary-color:     #2196F3;
-$accent-color:      #FFEB3B;
-$grey-color:        #828282;
-
-
 // Import partials from `sass_dir` (defaults to `_sass`)
 @import
-        "layout"
+  "layout"
 ;

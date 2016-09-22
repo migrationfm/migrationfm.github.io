@@ -1,23 +1,19 @@
 <!DOCTYPE html>
-<html>
-
+<html lang="{{ page.lang | default: site.lang | default: "en" }}">
   {% include head.html %}
+  <body class="migrationfm mdl-color--grey-100 mdl-color-text--grey-700 mdl-base">
+    <div class="mdl-layout mdl-js-layout mdl-layout--fixed-header">
 
-  <body>
-    <div class="paper-layout mdl-layout mdl-js-layout">
       {% include header.html %}
 
       <main class="mdl-layout__content">
-        <div id="container" class="paper-container">
-          {{ content }}
-        </div>
+
+        {{ content }}
+
         {% include footer.html %}
       </main>
+
     </div>
-
-    <script src="https://storage.googleapis.com/code.getmdl.io/1.0.4/material.min.js"></script>
-    <script src="{{ 'assets/jekyll-search/jekyll-search.min.js' | prepend: site.baseurl | prepend: site.url}}"></script>
-    <script src="{{ 'scripts/app.js' | prepend: site.baseurl | prepend: site.url}}"></script>
+    <script src="https://code.getmdl.io/1.2.1/material.min.js"></script>
   </body>
-
 </html>

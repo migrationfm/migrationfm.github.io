@@ -11,7 +11,6 @@ baseurl: "/"
 url: "http://migration.fm"
 lang: ja
 timezone: JPN
-ellipsis: "…"
 
 # Build settings
 markdown: kramdown
@@ -21,6 +20,9 @@ permalink: "/:title/"
 gems:
   - jekyll-paginate
   - jekyll-sitemap
+exclude:
+  - Gemfile
+  - Gemfile.lock
 
 # author info
 # add your appropriate info here
@@ -36,15 +38,5 @@ itunes_url: https://itunes.apple.com/jp/podcast/migration.fm/id1111956465
 andriod_url: http://www.subscribeonandroid.com/migration.fm/feed.xml
 blog_url: http://blog.migration.fm/
 
-# Theming options
-# These settings are mandatory.
-theme:              'blue-pink'
-# drawer theming
-drawer:
-  text_color:       'grey-600'
-  header_color:     'blue-500'
-  navigation_color: 'grey-200'
-# footer theming
-footer:
-  text_color: 'blue-grey-200'
-  color: 'blue-grey-600'
+# theme: minima
+theme_color: blue-pink # deep_purple-pink

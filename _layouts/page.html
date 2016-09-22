@@ -1,13 +1,13 @@
 ---
 layout: default
 ---
-<div class="paper-content mdl-color--white mdl-shadow--4dp content mdl-color-text--grey-800 mdl-cell">
+<div class="mdl-color--white mdl-shadow--4dp content mdl-color-text--grey-800">
   <div class="page">
-    <header>
-      <h3>{{ page.title }}</h3>
-    </header>
-    <article>
-      {{ content }}
-    </article>
+    <section class="section--center mdl-grid mdl-grid--no-spacing">
+      <div class="mdl-cell mdl-cell--12-col">
+        <h2>{{ page.title }}</h2>
+        {{ content }}
+      </div>
+    </section>
   </div>
 </div>

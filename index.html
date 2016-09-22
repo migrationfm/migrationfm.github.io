@@ -1,12 +1,15 @@
 ---
 layout: default
 ---
-{% for post in paginator.posts %}
-  <div class="paper-content mdl-color--white mdl-shadow--4dp content mdl-color-text--grey-800 mdl-cell">
-    <div class="paper-home">
-      <div class="post">
-        <div class="header">
-          <h5 class="subheader">
+<div class="mdl-layout__tab-panel is-active">
+  {% for post in paginator.posts %}
+    <section class="section--center mdl-grid mdl-grid--no-spacing mdl-shadow--2dp">
+      <header class="section__play-btn mdl-cell mdl-cell--3-col-desktop mdl-cell--2-col-tablet mdl-cell--4-col-phone mdl-color--teal-100 mdl-color-text--white">
+        <i class="material-icons">play_circle_filled</i></a>
+      </header>
+      <div class="mdl-card mdl-cell mdl-cell--9-col-desktop mdl-cell--6-col-tablet mdl-cell--4-col-phone">
+        <div class="mdl-card__supporting-text">
+          <p>
             {% assign d = post.date | date: "%d" | plus:'0' %}
             {{ post.date | date: "%B" }}
             {% case d %}
@@ -16,15 +19,17 @@ layout: default
             {% else %}{{ d }}th,
             {% endcase %}
             {{ post.date | date: "%Y" }}
-          </h5>
-          <h1>{{ post.title }}</h1>
+          </p>
+          <h4>{{ post.title }}</h4>
+          {{ post.description | xml_escape }}
         </div>
-        {{ post.description | xml_escape }}
-        <a class="mdl-button mdl-button--accent" href="{{ post.url }}">Read more</a>
+        <div class="mdl-card__actions">
+          <a class="mdl-button" href="{{ post.url }}">Read more</a>
+        </div>
       </div>
-    </div>
-  </div>
-{% endfor %}
+    </section>
+  {% endfor %}
+</div>
 
 <div class="mdl-grid pagination">
   <div class="mdl-cell mdl-cell--4-col previous">

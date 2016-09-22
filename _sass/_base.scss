@@ -1,3 +1,9 @@
+html, body {
+  font-family: 'Roboto', 'Helvetica', sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
 /**
  * Mixins for media queries
  */
@@ -22,38 +28,49 @@ $desktop-width: 1025px;
   }
 }
 
-.subheader {
-  font-size: 16px;
-  text-transform: uppercase;
-  color: #9E9E9E;
-}
-
-/**
- * Icons
- */
-.icon {
-
-    > svg {
-        display: inline-block;
-        width: 16px;
-        height: 16px;
-        vertical-align: middle;
-
-        path {
-            fill: $grey-color;
-        }
+.migrationfm {
+  article {
+    padding-bottom: 48px;
+  }
+  .subheader {
+    font-size: 16px;
+    text-transform: uppercase;
+    color: #9E9E9E;
+  }
+  .author {
+    h5 {
+      margin-top: 0px;
     }
-}
+    .author-avatar {
+      text-align: center;
+      img {
+        border-radius: 50%;
+      }
+    }
+  }
+  .icon {
 
-.pagination {
-  .previous {
-    text-align: left;
+      > svg {
+          display: inline-block;
+          width: 16px;
+          height: 16px;
+          vertical-align: middle;
+
+          path {
+              fill: #828282;
+          }
+      }
   }
-  .next {
-    text-align: right;
-  }
-  .indicator {
-    text-align: center;
-    padding-top: 8px;
+  .pagination {
+    .previous {
+      text-align: left;
+    }
+    .next {
+      text-align: right;
+    }
+    .indicator {
+      text-align: center;
+      padding-top: 8px;
+    }
   }
 }
