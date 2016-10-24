@@ -15,6 +15,7 @@
     <div class="mdl-tooltip" for="twitter">
       Share post on Twitter
     </div>
+
     <a id="facebook" class="mdl-button mdl-button--primary facebook" href="https://www.facebook.com/sharer/sharer.php"
          onclick="window.open(this.href, 'facebook-share','width=580,height=296');return false;">
       <span class="icon">
@@ -34,6 +35,14 @@
     </a>
     <div class="mdl-tooltip" for="gplus">
       Share post on Google+
+    </div>
+
+    <a id="hatena-bookmark" class="mdl-button mdl-button--primary hatena-bookmark" href="http://b.hatena.ne.jp/entry/{{ site.url }}{{ page.url }}" target="_blank">
+      <img src="https://b.st-hatena.com/images/entry-button/button-only@2x.png" alt="このエントリーをはてなブックマークに追加" width="20" height="20" style="border: none;" />
+      はてブ
+    </a>
+    <div class="mdl-tooltip" for="hatena-bookmark">
+      Share post on はてなブックマーク
     </div>
   </section>
 
