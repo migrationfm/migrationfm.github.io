@@ -9,6 +9,8 @@ speaker:
 
 ### Episodes
 
+- [7: Dreamforce, Salesforce Ecosystem, Studying for engineers (tak4hir0)](/007/)
+- [6: eat sleep Dreamforce (nakayama_san,astro)](/006/)
 - [5: Let's read Salesforce Developers.info (zaki___yama)](/005/)
 - [4: Awesome Salesforce (stomita)](/004/)
 - [3: migration.fm のWebサイト更新、ニュース など](/003/)
