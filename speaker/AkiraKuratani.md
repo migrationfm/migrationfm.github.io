@@ -9,6 +9,7 @@ speaker:
 
 ### Episodes
 
+- [8: Engineer Survival Strategy (tzm_freedom)](/008/)
 - [7: Dreamforce, Salesforce Ecosystem, Studying for engineers (tak4hir0)](/007/)
 - [6: eat sleep Dreamforce (nakayama_san,astro)](/006/)
 - [5: Let's read Salesforce Developers.info (zaki___yama)](/005/)
