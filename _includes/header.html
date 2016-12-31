@@ -10,7 +10,7 @@
     <a href="{{ site.baseurl }}" class="mdl-layout__tab">Home</a>
     <a href="{{ site.blog_url }}" class="mdl-layout__tab">Blog</a>
     {% for page in site.pages %}
-      {% if page.title %}
+      {% if page.title and page.title != "EPISODES" %}
         <a href="{{ page.url | replace_first: '/', '' | prepend: site.baseurl }}" class="mdl-layout__tab">{{ page.title }}</a>
       {% endif %}
     {% endfor %}
