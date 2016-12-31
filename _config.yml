@@ -33,6 +33,7 @@ email_md5: 0f5a90aa72eccd0071a7dae1187dac9f # md5 hash of your email
 twitter_username: migrationfm
 twitter_hashtag: migrationfm
 github_username: kuratani
+facebook_pagename: migration.fm
 rss_url: http://migration.fm/feed.xml
 itunes_url: https://itunes.apple.com/jp/podcast/migration.fm/id1111956465
 andriod_url: https://www.subscribeonandroid.com/migration.fm/feed.xml

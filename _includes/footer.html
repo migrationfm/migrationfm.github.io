@@ -5,7 +5,7 @@
       <h1 class="mdl-mega-footer--heading">Pages</h1>
       <ul class="mdl-mega-footer--link-list">
         {% for page in site.pages %}
-          {% if page.title %}
+          {% if page.title and page.title != 'Episodes' %}
             <li><a href="{{ page.url | replace_first: '/', '' | prepend: site.baseurl | prepend: site.url}}">{{ page.title }}</a></li>
           {% endif %}
         {% endfor %}
@@ -18,15 +18,22 @@
         <!-- github -->
         {% if site.github_username %}
           <li>
-            <a id="github" href="https://github.com/{{ site.github_username }}">GitHub</a>
-            <div class="mdl-tooltip" for="github">Github profile</div>
+            <a id="github_link" href="https://github.com/{{ site.github_username }}">GitHub</a>
+            <div class="mdl-tooltip" for="github_link">Github profile</div>
           </li>
         {% endif %}
         <!-- twitter -->
         {% if site.twitter_username %}
           <li>
-            <a id="twitter" href="https://twitter.com/{{ site.twitter_username }}">twitter</a>
-            <div class="mdl-tooltip" for="twitter">Follow on twitter</div>
+            <a id="twitter_link" href="https://twitter.com/{{ site.twitter_username }}">twitter</a>
+            <div class="mdl-tooltip" for="twitter_link">Follow on twitter</div>
+          </li>
+        {% endif %}
+        <!-- facebook -->
+        {% if site.facebook_pagename %}
+          <li>
+            <a id="facebook_link" href="https://www.facebook.com/{{ site.facebook_pagename }}/">facebook</a>
+            <div class="mdl-tooltip" for="facebook_link">Follow on twitter</div>
           </li>
         {% endif %}
       </ul>
