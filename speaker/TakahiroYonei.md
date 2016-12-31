@@ -9,4 +9,5 @@ speaker:
 
 ### Episodes
 
+- [9: Ring out the old year, ring in the new (yonet77)](/009/)
 - [2: Summer'16 リリースノート、SALESFORCE DEVELOPERS.INFO、Tokyo Salesforce Developer Groupの活動など](/002/)

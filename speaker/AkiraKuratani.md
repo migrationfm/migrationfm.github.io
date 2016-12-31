@@ -9,6 +9,7 @@ speaker:
 
 ### Episodes
 
+- [9: Ring out the old year, ring in the new (yonet77)](/009/)
 - [8: Engineer Survival Strategy (tzm_freedom)](/008/)
 - [7: Dreamforce, Salesforce Ecosystem, Studying for engineers (tak4hir0)](/007/)
 - [6: eat sleep Dreamforce (nakayama_san,astro)](/006/)

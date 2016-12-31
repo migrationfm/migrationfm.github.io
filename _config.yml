@@ -14,7 +14,7 @@ timezone: JPN
 
 # Build settings
 markdown: kramdown
-paginate: 5 # pagination based on number of posts
+paginate: 10 # pagination based on number of posts
 paginate_path: "page/:num"
 permalink: "/:title/"
 gems:
