@@ -4,10 +4,11 @@ layout: default
 <div class="mdl-layout__tab-panel is-active">
   {% for post in paginator.posts %}
     <section class="section--center mdl-grid mdl-grid--no-spacing mdl-shadow--2dp">
-      <header class="section__play-btn mdl-cell mdl-cell--3-col-desktop mdl-cell--2-col-tablet mdl-cell--4-col-phone mdl-color--teal-100 mdl-color-text--white">
-        <i class="material-icons">play_circle_filled</i></a>
+      <header class="section__play-btn mdl-cell mdl-cell--3-col-desktop mdl-cell--2-col-tablet mdl-cell--4-col-phone mdl-color--teal-100 mdl-color-text--white" onclick="location.href='{{ post.url }}';" style="cursor: hand; cursor:pointer;">
+        <img src="/images/Logo.png" alt="logo" style="width: 100%; height: auto;">
+        <i class="material-icons" style="position: absolute;">play_circle_filled</i>
       </header>
-      <div class="mdl-card mdl-cell mdl-cell--9-col-desktop mdl-cell--6-col-tablet mdl-cell--4-col-phone">
+      <div class="mdl-card mdl-cell mdl-cell--9-col-desktop mdl-cell--6-col-tablet mdl-cell--4-col-phone" onclick="location.href='{{ post.url }}';" style="cursor: hand; cursor:pointer;">
         <div class="mdl-card__supporting-text">
           <p>
             {% assign d = post.date | date: "%d" | plus:'0' %}
@@ -22,9 +23,6 @@ layout: default
           </p>
           <h4>{{ post.title }}</h4>
           {{ post.description | xml_escape }}
-        </div>
-        <div class="mdl-card__actions">
-          <a class="mdl-button" href="{{ post.url }}">Read more</a>
         </div>
       </div>
     </section>
