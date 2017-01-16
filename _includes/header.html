@@ -9,7 +9,7 @@
     <a href="{{ site.blog_url }}" class="mdl-layout__tab">Blog</a>
     <a href="{{ site.itunes_url }}" class="mdl-layout__tab">iTunes</a>
     {% for page in site.pages %}
-      {% if page.title %}
+      {% if page.title and page.title != 'Episodes' %}
         <a href="{{ page.url | replace_first: '/', '' | prepend: site.baseurl }}" class="mdl-layout__tab">{{ page.title }}</a>
       {% endif %}
     {% endfor %}

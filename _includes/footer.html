@@ -6,7 +6,7 @@
       <ul class="mdl-mega-footer--link-list">
         <li><a href="{{ site.blog_url }}">Blog</a></li>
         {% for page in site.pages %}
-          {% if page.title %}
+          {% if page.title and page.title != 'Episodes' %}
             <li><a href="{{ page.url | replace_first: '/', '' | prepend: site.baseurl | prepend: site.url}}">{{ page.title }}</a></li>
           {% endif %}
         {% endfor %}
