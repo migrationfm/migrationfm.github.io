@@ -9,6 +9,7 @@ speaker:
 
 ### Episodes
 
+- [10: What’s your new year’s resolution? (zaki___yama, yodroid1)](/010/)
 - [9: Ring out the old year, ring in the new (yonet77)](/009/)
 - [8: Engineer Survival Strategy (tzm_freedom)](/008/)
 - [7: Dreamforce, Salesforce Ecosystem, Studying for engineers (tak4hir0)](/007/)
