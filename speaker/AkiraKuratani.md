@@ -3,12 +3,13 @@ layout: speaker
 speaker:
  - name: Akira Kuratani
    image_url: https://pbs.twimg.com/profile_images/754365362808827904/Ig84TgbE_400x400.jpg
-   bio: Software Engineer at TeamSpirit Inc. Podcaster at @migrationfm. Salesforce Advanced Developer.
+   bio: Software Engineer at TeamSpirit Inc. Podcaster at @migrationfm. Salesforce MVP Winter'17, Advanced Developer.
    twitter_username: a_kuratani
 ---
 
 ### Episodes
 
+- [11: Where's Astro?](/011/)
 - [10: What’s your new year’s resolution? (zaki___yama, yodroid1)](/010/)
 - [9: Ring out the old year, ring in the new (yonet77)](/009/)
 - [8: Engineer Survival Strategy (tzm_freedom)](/008/)
