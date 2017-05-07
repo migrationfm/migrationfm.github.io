@@ -9,6 +9,7 @@ speaker:
 
 ### Episodes
 
+- [12: What is the value of Mastodon? (mitsuhiro)](/012/)
 - [11: Where's Astro?](/011/)
 - [10: What’s your new year’s resolution? (zaki___yama, yodroid1)](/010/)
 - [9: Ring out the old year, ring in the new (yonet77)](/009/)
