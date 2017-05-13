@@ -9,4 +9,5 @@ speaker:
 
 ### Episodes
 
+- [13: Living science fiction as an engineer (mitsuhiro)](/013/)
 - [12: What is the value of Mastodon? (mitsuhiro)](/012/)

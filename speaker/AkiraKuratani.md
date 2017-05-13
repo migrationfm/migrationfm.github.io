@@ -9,6 +9,7 @@ speaker:
 
 ### Episodes
 
+- [13: Living science fiction as an engineer (mitsuhiro)](/013/)
 - [12: What is the value of Mastodon? (mitsuhiro)](/012/)
 - [11: Where's Astro?](/011/)
 - [10: What’s your new year’s resolution? (zaki___yama, yodroid1)](/010/)
