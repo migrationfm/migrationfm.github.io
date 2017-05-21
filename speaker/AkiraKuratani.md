@@ -9,6 +9,7 @@ speaker:
 
 ### Episodes
 
+- [14: Don't think about survival, live freely! (i_sanuki)](/014/)
 - [13: Living science fiction as an engineer (mitsuhiro)](/013/)
 - [12: What is the value of Mastodon? (mitsuhiro)](/012/)
 - [11: Where's Astro?](/011/)
