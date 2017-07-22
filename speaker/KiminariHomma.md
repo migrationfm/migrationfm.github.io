@@ -9,4 +9,5 @@ speaker:
 
 ### Episodes
 
+- [17: Where is Silicon Valley in Japan? (kimihom)](/017/)
 - [16: Customer Success! (kimihom)](/016/)
