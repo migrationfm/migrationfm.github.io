@@ -9,6 +9,7 @@ speaker:
 
 ### Episodes
 
+- [18: Can you go back to on-premises? (niseissa)](/018/)
 - [17: Where is Silicon Valley in Japan? (kimihom)](/017/)
 - [16: Customer Success! (kimihom)](/016/)
 - [15: Salesforce Girls Group Japan Community is amazing! (nakayama_san)](/015/)
