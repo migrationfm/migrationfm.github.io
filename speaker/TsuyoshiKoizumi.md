@@ -9,4 +9,5 @@ speaker:
 
 ### Episodes
 
+- [19: Deep Heroku Integration (niseissa)](/019)
 - [18: Can you go back to on-premises? (niseissa)](/018/)
