@@ -9,6 +9,7 @@ speaker:
 
 ### Episodes
 
+- [20: Fast growing Trailhead! (shunkosa)](/020)
 - [19: Deep Heroku Integration (niseissa)](/019)
 - [18: Can you go back to on-premises? (niseissa)](/018/)
 - [17: Where is Silicon Valley in Japan? (kimihom)](/017/)
