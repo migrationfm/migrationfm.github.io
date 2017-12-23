@@ -9,6 +9,7 @@ speaker:
 
 ### Episodes
 
+- [22: Exam emergency stop! (yonet77)](/022/)
 - [21: Let's go to Dreamforce next year together! (i_sanuki,nakayama_san,astro)](/021/)
 - [20: Fast growing Trailhead! (shunkosa)](/020)
 - [19: Deep Heroku Integration (niseissa)](/019)
