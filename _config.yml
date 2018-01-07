@@ -7,7 +7,7 @@ managerName: migration.fm
 managerEmail: migrationfm@gmail.com
 copyright: "&#x2117; &amp; &#xA9; 2016"
 keywords: Salesforce, Podcast
-baseurl: ""
+baseurl: "/"
 url: "http://migration.fm"
 lang: ja
 timezone: JPN
