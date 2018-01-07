@@ -5,11 +5,11 @@
     </div>
   </div>
   <div class="mdl-layout__tab-bar mdl-js-ripple-effect mdl-color--primary-dark">
-    <a href="{{ site.baseurl }}" class="mdl-layout__tab">Home</a>
+    <a href="{{ site.url }}" class="mdl-layout__tab">Home</a>
     <a href="{{ site.blog_url }}" class="mdl-layout__tab">Blog</a>
     {% for page in site.pages %}
       {% if page.title and page.title != 'Episodes' %}
-        <a href="{{ page.url | replace_first: '/', '' | prepend: site.baseurl }}" class="mdl-layout__tab">{{ page.title }}</a>
+        <a href="{{ page.url | prepend: site.url }}" class="mdl-layout__tab">{{ page.title }}</a>
       {% endif %}
     {% endfor %}
     <a href="{{ site.itunes_url }}" target="_blank" class="mdl-layout__tab" style="width: 70%; text-align: right;"><img src="/images/Listen_on_Apple_Podcasts_sRGB_US.svg" alt="Listen on Apple Podcasts Badge"/></a>
