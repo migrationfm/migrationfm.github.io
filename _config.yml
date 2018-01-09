@@ -8,7 +8,7 @@ managerEmail: migrationfm@gmail.com
 copyright: "&#x2117; &amp; &#xA9; 2016"
 keywords: Salesforce, Podcast
 baseurl: "/"
-url: "http://migration.fm"
+url: "https://migration.fm"
 lang: ja
 timezone: JPN
 
@@ -34,7 +34,7 @@ twitter_username: migrationfm
 twitter_hashtag: migrationfm
 github_username: kuratani
 facebook_pagename: migration.fm
-rss_url: http://migration.fm/feed.xml
+rss_url: https://migration.fm/feed.xml
 itunes_url: https://itunes.apple.com/jp/podcast/migration.fm/id1111956465
 andriod_url: https://www.subscribeonandroid.com/migration.fm/feed.xml
 blog_url: https://blog.migration.fm/
