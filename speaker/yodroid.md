@@ -2,7 +2,7 @@
 layout: speaker
 speaker:
  - name: yodriod
-   image_url: https://pbs.twimg.com/profile_images/667364365851496448/_X1MHzAU.png
+   image_url: https://pbs.twimg.com/profile_images/904205306162380801/vATd90tw_400x400.jpg
    bio:
    twitter_username: yodriod1
 ---
