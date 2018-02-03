@@ -9,5 +9,6 @@ speaker:
 
 ### Episodes
 
+- [23: Continuous Study Sessions (zaki___yama)](/023/)
 - [10: What’s your new year’s resolution? (zaki___yama, yodroid1)](/010/)
 - [5: Let's read Salesforce Developers.info (zaki___yama)](/005/)

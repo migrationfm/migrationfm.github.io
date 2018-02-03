@@ -9,6 +9,7 @@ speaker:
 
 ### Episodes
 
+- [23: Continuous Study Sessions (zaki___yama)](/023/)
 - [22: Exam emergency stop! (yonet77)](/022/)
 - [21: Let's go to Dreamforce next year together! (i_sanuki,nakayama_san,astro)](/021/)
 - [20: Fast growing Trailhead! (shunkosa)](/020)
