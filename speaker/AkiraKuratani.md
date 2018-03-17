@@ -3,12 +3,13 @@ layout: speaker
 speaker:
  - name: Akira Kuratani
    image_url: https://pbs.twimg.com/profile_images/754365362808827904/Ig84TgbE_400x400.jpg
-   bio: Software Engineer at TeamSpirit Inc. Podcaster at @migrationfm. Salesforce MVP Winter'17, Advanced Developer.
+   bio: Software Engineer at TeamSpirit Inc. Podcaster at @migrationfm. Salesforce MVP Winter'17/18, Advanced Developer.
    twitter_username: a_kuratani
 ---
 
 ### Episodes
 
+- [24: No Salesforce, No life! (shunkosa)](/024/)
 - [23: Continuous Study Sessions (zaki___yama)](/023/)
 - [22: Exam emergency stop! (yonet77)](/022/)
 - [21: Let's go to Dreamforce next year together! (i_sanuki,nakayama_san,astro)](/021/)
