@@ -9,6 +9,7 @@ speaker:
 
 ### Episodes
 
+- [25: When do you start studying English? (suyaman_jp)](/025/)
 - [24: No Salesforce, No life! (shunkosa)](/024/)
 - [23: Continuous Study Sessions (zaki___yama)](/023/)
 - [22: Exam emergency stop! (yonet77)](/022/)
