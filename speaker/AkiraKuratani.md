@@ -9,6 +9,7 @@ speaker:
 
 ### Episodes
 
+- [26: Let's dance with Robohon and Einstein! (nmin000)](/026/)
 - [25: When do you start studying English? (suyaman_jp)](/025/)
 - [24: No Salesforce, No life! (shunkosa)](/024/)
 - [23: Continuous Study Sessions (zaki___yama)](/023/)
