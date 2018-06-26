@@ -9,4 +9,4 @@ speaker:
 
 ### Episodes
 
-- [26: Let's dance with Robohon and Einstein! (nmin000)](/026/)
+- [26: Let's dance with Robohon and Einstein! (nmin000,surounin)](/026/)
