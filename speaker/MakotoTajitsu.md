@@ -9,4 +9,5 @@ speaker:
 
 ### Episodes
 
+- [27: Doing Apex on Local! (tzm_freedom)](/027/)
 - [8: Engineer Survival Strategy (tzm_freedom)](/008/)
