@@ -9,5 +9,6 @@ speaker:
 
 ### Episodes
 
+- [28: Evaluating technical skills (tzm_freedom)](/028/)
 - [27: Doing Apex on Local! (tzm_freedom)](/027/)
 - [8: Engineer Survival Strategy (tzm_freedom)](/008/)

@@ -9,6 +9,7 @@ speaker:
 
 ### Episodes
 
+- [28: Evaluating technical skills (tzm_freedom)](/028/)
 - [27: Doing Apex on Local! (tzm_freedom)](/027/)
 - [26: Let's dance with Robohon and Einstein! (nmin000,surounin)](/026/)
 - [25: When do you start studying English? (suyaman_jp)](/025/)
