@@ -9,6 +9,7 @@ speaker:
 
 ### Episodes
 
+- [31: Retrospective 2018 (yonet77)](/031/)
 - [30: Communities around the world (shunkosa)](/030/)
 - [29: What is your nickname? (ryosuke921186)](/029/)
 - [28: Evaluating technical skills (tzm_freedom)](/028/)
