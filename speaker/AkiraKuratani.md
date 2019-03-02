@@ -9,6 +9,7 @@ speaker:
 
 ### Episodes
 
+- [33: Road to Lightning Champion (surounin)](/033/)
 - [32: Japan Dreamin' 2019](/032/)
 - [31: Retrospective 2018 (yonet77)](/031/)
 - [30: Communities around the world (shunkosa)](/030/)
