@@ -3,12 +3,13 @@ layout: speaker
 speaker:
  - name: Akira Kuratani
    image_url: https://pbs.twimg.com/profile_images/754365362808827904/Ig84TgbE_400x400.jpg
-   bio: Software Engineer at TeamSpirit Inc. Podcaster at @migrationfm. Salesforce MVP Winter'17/18, Advanced Developer.
+   bio: Software Engineer at TeamSpirit Inc. Podcaster at @migrationfm. Salesforce MVP Winter'17-19, Advanced Developer.
    twitter_username: a_kuratani
 ---
 
 ### Episodes
 
+- [34: I love Codey! (nonoukmomo)](/034/)
 - [33: Road to Lightning Champion (surounin)](/033/)
 - [32: Japan Dreamin' 2019](/032/)
 - [31: Retrospective 2018 (yonet77)](/031/)
