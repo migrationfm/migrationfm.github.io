@@ -2,7 +2,7 @@
 layout: speaker
 speaker:
  - name: Ryosuke Kobayashi
-   image_url: https://pbs.twimg.com/profile_images/936608671244566529/bL9SV_uF_400x400.jpg
+   image_url: https://pbs.twimg.com/profile_images/1096245673094049794/ac-O75PS_400x400.png
    bio:
    twitter_username: ryosuke921186
 ---
