@@ -9,6 +9,7 @@ speaker:
 
 ### Episodes
 
+- [35: Interview with new and old leaders (yonet77, ryosuke921186)](/035/)
 - [31: Retrospective 2018 (yonet77)](/031/)
 - [22: Exam emergency stop! (yonet77)](/022/)
 - [9: Ring out the old year, ring in the new (yonet77)](/009/)

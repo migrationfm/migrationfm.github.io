@@ -9,6 +9,7 @@ speaker:
 
 ### Episodes
 
+- [35: Interview with new and old leaders (yonet77, ryosuke921186)](/035/)
 - [34: I love Codey! (nonoukmomo)](/034/)
 - [33: Road to Lightning Champion (surounin)](/033/)
 - [32: Japan Dreamin' 2019](/032/)

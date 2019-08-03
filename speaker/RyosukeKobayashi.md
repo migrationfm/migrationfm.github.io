@@ -9,4 +9,5 @@ speaker:
 
 ### Episodes
 
+- [35: Interview with new and old leaders (yonet77, ryosuke921186)](/035/)
 - [29: What is your nickname? (ryosuke921186)](/029/)
