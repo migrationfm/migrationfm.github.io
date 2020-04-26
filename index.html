@@ -30,6 +30,7 @@ layout: default
 </div>
 
 <div class="mdl-grid pagination">
+  {{ site.paginate_path }} | {{ paginator.previous_page }} | {{ site.baseurl }}
   <div class="mdl-cell mdl-cell--4-col previous">
     {% if paginator.previous_page %}
       {% if paginator.previous_page == 1 %}
