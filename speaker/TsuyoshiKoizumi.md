@@ -2,7 +2,7 @@
 layout: speaker
 speaker:
  - name: Tsuyoshi Koizumi
-   image_url: https://pbs.twimg.com/profile_images/617317335259480064/aWb-Ljl-_400x400.jpg
+   image_url: https://pbs.twimg.com/profile_images/1014850741180104704/qP-v3_9L_400x400.jpg
    bio:
    twitter_username: niseissa
 ---

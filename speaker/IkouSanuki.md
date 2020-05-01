@@ -2,7 +2,7 @@
 layout: speaker
 speaker:
  - name: Ikou Sanuki
-   image_url: https://pbs.twimg.com/profile_images/809619084010655744/O9PIDt7K_400x400.jpg
+   image_url: https://pbs.twimg.com/profile_images/1191515093231521792/wzNp7jVc_400x400.jpg
    bio:
    twitter_username: i_sanuki
 ---

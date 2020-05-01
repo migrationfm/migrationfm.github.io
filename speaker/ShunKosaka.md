@@ -2,7 +2,7 @@
 layout: speaker
 speaker:
  - name: Shun Kosaka
-   image_url: https://pbs.twimg.com/profile_images/996259770842562560/-DtTzked_400x400.jpg
+   image_url: https://pbs.twimg.com/profile_images/1199928852979470336/dtfVVb4f_400x400.jpg
    bio:
    twitter_username: shunkosa
 ---

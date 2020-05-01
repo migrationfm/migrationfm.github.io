@@ -2,9 +2,9 @@
 layout: speaker
 speaker:
  - name: Mitsuhiro Okamoto
-   image_url: https://pbs.twimg.com/profile_images/778520192846442496/4PeTQu3t_400x400.jpg
+   image_url: https://pbs.twimg.com/profile_images/1244909471345725441/Vj7XaCD2_400x400.jpg
    bio:
-   twitter_username: mitsuhiro
+   twitter_username: mitch_oka
 ---
 
 ### Episodes

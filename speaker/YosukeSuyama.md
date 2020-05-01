@@ -2,7 +2,7 @@
 layout: speaker
 speaker:
  - name: Yosuke Suyama
-   image_url: https://pbs.twimg.com/profile_images/1641431319/cupsaru_400x400.jpg
+   image_url: https://pbs.twimg.com/profile_images/1213999540358926336/eBAQWuzP_400x400.jpg
    bio:
    twitter_username: suyaman_jp
 ---

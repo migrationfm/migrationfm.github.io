@@ -2,7 +2,7 @@
 layout: speaker
 speaker:
  - name: Kiminari Homma
-   image_url: https://pbs.twimg.com/profile_images/814387235797643264/clzYrbam_400x400.jpg
+   image_url: https://pbs.twimg.com/profile_images/1086551020556013568/8iymlzLz_400x400.jpg
    bio:
    twitter_username: kimihom
 ---
