@@ -9,6 +9,7 @@ speaker:
 
 ### Episodes
 
+- [38: Nesting Salesforce MVPs (shunkosa)](/038/)
 - [37: Dreamforce Japan Night in Japan (suyaman_jp, surounin)](/037/)
 - [35: Interview with new and old leaders (yonet77, ryosuke921186)](/035/)
 - [34: I love Codey! (nonoukmomo)](/034/)
