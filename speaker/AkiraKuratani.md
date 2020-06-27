@@ -9,6 +9,7 @@ speaker:
 
 ### Episodes
 
+- [41: What's "GYOMU Hack"? (MiryGoAround)](/041/)
 - [40: Community Growth (ryosuke921186)](/040/)
 - [39: Let's talk about evangelism! (hrk623)](/039/)
 - [38: Nesting Salesforce MVPs (shunkosa)](/038/)
