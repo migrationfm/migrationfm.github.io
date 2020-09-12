@@ -4,7 +4,7 @@ speaker:
  - name: Yokk
    image_url: https://pbs.twimg.com/profile_images/904205306162380801/vATd90tw_400x400.jpg
    bio:
-   twitter_username: yodroid1
+   twitter_username: yokkto
 ---
 
 ### Episodes
