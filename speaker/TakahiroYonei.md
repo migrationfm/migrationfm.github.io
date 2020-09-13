@@ -9,6 +9,8 @@ speaker:
 
 ### Episodes
 
+- [42: Salesforce developers chatting (cohey1975, yonet77)](/042/)
+- [36: Apologies for failure to record (cohey1975, yonet77)](/036/)
 - [35: Interview with new and old leaders (yonet77, ryosuke921186)](/035/)
 - [31: Retrospective 2018 (yonet77)](/031/)
 - [22: Exam emergency stop! (yonet77)](/022/)

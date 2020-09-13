@@ -3,12 +3,13 @@ layout: speaker
 speaker:
  - name: Akira Kuratani
    image_url: https://pbs.twimg.com/profile_images/754365362808827904/Ig84TgbE_400x400.jpg
-   bio: Software Engineer at TeamSpirit Inc. Podcaster at @migrationfm. Salesforce MVP Winter'17-19, Advanced Developer.
+   bio: Software Engineer at TeamSpirit Inc. Podcaster at @migrationfm. Salesforce MVP 17-20, Advanced Developer.
    twitter_username: a_kuratani
 ---
 
 ### Episodes
 
+- [42: Salesforce developers chatting (cohey1975, yonet77)](/042/)
 - [41: What's "GYOMU Hack"? (MiryGoAround)](/041/)
 - [40: Community Growth (ryosuke921186)](/040/)
 - [39: Let's talk about evangelism! (hrk623)](/039/)
