@@ -9,6 +9,7 @@ speaker:
 
 ### Episodes
 
+- [43: Retrospective by Salesforce Developers (ryosuke921186)](/043/)
 - [42: Salesforce developers chatting (cohey1975, yonet77)](/042/)
 - [41: What's "GYOMU Hack"? (MiryGoAround)](/041/)
 - [40: Community Growth (ryosuke921186)](/040/)
