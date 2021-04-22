@@ -9,4 +9,5 @@ speaker:
 
 ### Episodes
 
+- [46: The road to Trailblazer (takaaki_mo)](/046/)
 - [45: The suffering of Salesforce admin (takaaki_mo)](/045/)

@@ -9,6 +9,7 @@ speaker:
 
 ### Episodes
 
+- [46: The road to Trailblazer (takaaki_mo)](/046/)
 - [45: The suffering of Salesforce admin (takaaki_mo)](/045/)
 - [44: Everything became remote (i_sanuki)](/044/)
 - [43: Retrospective by Salesforce Developers (ryosuke921186)](/043/)
