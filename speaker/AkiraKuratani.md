@@ -9,6 +9,7 @@ speaker:
 
 ### Episodes
 
+- [47: The future of contract development (yonet77)](/047/)
 - [46: The road to Trailblazer (takaaki_mo)](/046/)
 - [45: The suffering of Salesforce admin (takaaki_mo)](/045/)
 - [44: Everything became remote (i_sanuki)](/044/)
