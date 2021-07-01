@@ -9,6 +9,7 @@ speaker:
 
 ### Episodes
 
+- [48: The future of conference (yonet77)](/048/)
 - [47: The future of contract development (yonet77)](/047/)
 - [42: Salesforce developers chatting (cohey1975, yonet77)](/042/)
 - [36: Apologies for failure to record (cohey1975, yonet77)](/036/)
