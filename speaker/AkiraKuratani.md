@@ -3,12 +3,13 @@ layout: speaker
 speaker:
  - name: Akira Kuratani
    image_url: https://pbs.twimg.com/profile_images/754365362808827904/Ig84TgbE_400x400.jpg
-   bio: Software Engineer at TeamSpirit Inc. Podcaster at @migrationfm. Salesforce MVP 17-21, Advanced Developer.
+   bio: Software Engineer at TeamSpirit Inc. Podcaster at @migrationfm. Salesforce MVP 17-22, Advanced Developer.
    twitter_username: a_kuratani
 ---
 
 ### Episodes
 
+- [49: Long time no see, I'm back! (ryosuke921186)](/049/)
 - [48: The future of conference (yonet77)](/048/)
 - [47: The future of contract development (yonet77)](/047/)
 - [46: The road to Trailblazer (takaaki_mo)](/046/)
