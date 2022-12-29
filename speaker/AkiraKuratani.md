@@ -9,6 +9,7 @@ speaker:
 
 ### Episodes
 
+- [50: Looking back on 2022 (yonet77)](/050/)
 - [49: Long time no see, I'm back! (ryosuke921186)](/049/)
 - [48: The future of conference (yonet77)](/048/)
 - [47: The future of contract development (yonet77)](/047/)

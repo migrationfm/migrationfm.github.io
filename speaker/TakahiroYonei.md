@@ -9,6 +9,7 @@ speaker:
 
 ### Episodes
 
+- [50: Looking back on 2022 (yonet77)](/050/)
 - [48: The future of conference (yonet77)](/048/)
 - [47: The future of contract development (yonet77)](/047/)
 - [42: Salesforce developers chatting (cohey1975, yonet77)](/042/)
