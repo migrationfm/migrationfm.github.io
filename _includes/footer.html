@@ -30,6 +30,13 @@
             <div class="mdl-tooltip" for="twitter_link">Follow on twitter</div>
           </li>
         {% endif %}
+        <!-- youtube -->
+        {% if site.youtube_channelname %}
+          <li>
+            <a id="youtube_link" href="https://www.youtube.com/@migrationtalks{{ site.youtube_channelname }}/">YouTube</a>
+            <div class="mdl-tooltip" for="youtube_link">Subscribe to our YouTube channel</div>
+          </li>
+        {% endif %}
         <!-- facebook -->
         {% if site.facebook_pagename %}
           <li>
