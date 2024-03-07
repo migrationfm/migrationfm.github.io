@@ -9,6 +9,7 @@ speaker:
 
 ### Episodes
 
+- [52 : Road to Salesforce CTA & MVP (@hiroki_iida_)](/052/)
 - [51: Tech talk about TrailblazerDX 2023 (surounin)](/051/)
 - [50: Looking back on 2022 (yonet77)](/050/)
 - [49: Long time no see, I'm back! (ryosuke921186)](/049/)
