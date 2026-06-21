@@ -1,0 +1,13 @@
+{% if page.youtube_id %}
+  <div class="youtube">
+    <iframe width="100%" height="auto" style="aspect-ratio: 16/9;" src="https://www.youtube.com/embed/{{ page.youtube_id }}" frameborder="0" allowfullscreen></iframe>
+  </div>
+{% elsif page.apple_podcast_url %}
+  <a href="{{ page.apple_podcast_url }}" class="apple-podcast-tile mdl-shadow--2dp">
+    <div class="apple-podcast-tile__image">
+      <img src="/images/Logo.png" alt="migration.fm">
+      <i class="material-icons">headset</i>
+    </div>
+    <div class="apple-podcast-tile__label">Apple Podcasts で聴く</div>
+  </a>
+{% endif %}

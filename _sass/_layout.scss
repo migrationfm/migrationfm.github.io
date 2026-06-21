@@ -202,6 +202,46 @@
   .mdl-card__supporting-text + .mdl-card__actions {
     border-top: 1px solid rgba(0, 0, 0, 0.12);
   }
+  // Apple Podcast tile
+  .apple-podcast-tile {
+    display: flex;
+    align-items: center;
+    text-decoration: none;
+    color: inherit;
+    background: white;
+    margin-bottom: 16px;
+    overflow: hidden;
+
+    &__image {
+      position: relative;
+      width: 120px;
+      flex-shrink: 0;
+      background-color: #e0f7fa;
+
+      img {
+        width: 100%;
+        height: auto;
+        display: block;
+        filter: brightness(80%);
+      }
+
+      .material-icons {
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        font-size: 3rem;
+        color: white;
+      }
+    }
+
+    &__label {
+      padding: 0 24px;
+      font-size: 18px;
+      font-weight: bold;
+    }
+  }
+
   // Post / Page
   .post, .page {
     section.section--center {
